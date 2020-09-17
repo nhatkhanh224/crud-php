@@ -12,23 +12,20 @@
 <body>
 <?php require_once "showId.php" ?>
 <?php require_once "update.php" ?>
-<div class="row justify-content-center">
-<form action="" method="POST">
-    <input type="hidden" name="id" value='<?php echo $id ?>' > 
-  <div class="form-group">
-    <label for="exampleInputEmail1">Name</label>
-    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" value="<?php echo $name; ?>"  name="name">
-    
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">OVR</label>
-    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" value="<?php echo $ovr; ?>"  name="ovr">
-    
-  </div>
-  <button type="submit" name="update" class="btn btn-primary">Update</button>
-</form>
-<a href="playerShow.php">List of player</a>
-</div>
-
+    <div class="row justify-content-center">
+      <form action="" method="POST">
+          <input type="hidden" name="id" value='<?php echo $id ?>' > 
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" value="<?php echo $name; ?>"  name="name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">OVR</label>
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" value="<?php echo $ovr; ?>"  name="ovr">
+        </div>
+        <button type="submit" name="update" class="btn btn-primary">Update</button>
+      </form>
+        <a href="playerShow.php">List of player</a>
+      </div>
 </body>
 </html>

@@ -16,12 +16,10 @@
   <div class="form-group">
     <label for="exampleInputEmail1">Name</label>
     <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" name="name">
-    
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">OVR</label>
     <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter OVR" name="ovr">
-    
   </div>
   <button type="submit" name="save" class="btn btn-primary">Submit</button>
 </form>

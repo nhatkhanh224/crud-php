@@ -5,5 +5,5 @@ if (isset($_POST['save'])) {
     $ovr=$_POST['ovr'];
     $sql = "INSERT INTO player(`id`, `name`, `ovr`) VALUES (null, '$name','$ovr')";
     $data=mysqli_query($connect,$sql);
-    }
+}
 ?>
